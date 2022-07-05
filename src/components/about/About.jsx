@@ -1,9 +1,13 @@
 import React from 'react'
-import './About.css';
+import './About.scss';
 
 const About = () => {
   return (
-    <div>About</div>
+    <section 
+      id="about"
+      data-testid="about-container">
+        About
+    </section>
   )
 }
 

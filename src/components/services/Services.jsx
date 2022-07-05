@@ -1,9 +1,13 @@
 import React from 'react';
-import './Services.css';
+import './Services.scss';
 
 function Services() {
   return (
-    <div>Services</div>
+    <section 
+      id="services"
+      data-testid="services-container">
+        Services
+    </section>
   )
 }
 

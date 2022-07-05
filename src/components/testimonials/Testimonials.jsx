@@ -3,7 +3,11 @@ import './Testimonials';
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section 
+      id="testimonials"
+      data-testid="testimonials-container">
+        Testimonials
+    </section>
   )
 }
 

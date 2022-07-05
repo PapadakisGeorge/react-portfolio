@@ -1,9 +1,13 @@
 import React from 'react';
-import './Experience.css';
+import './Experience.scss';
 
 function Experience() {
   return (
-    <div>Experience</div>
+    <section 
+      id="experience"
+      data-testid="experience-container">
+        Contact
+    </section>
   )
 }
 

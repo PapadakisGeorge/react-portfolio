@@ -1,9 +1,13 @@
 import React from 'react'
-import './Projects.css';
+import './Projects.scss';
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <section 
+      id="projects"
+      data-testid="projects-container">
+        Projects
+    </section>
   )
 }
 
